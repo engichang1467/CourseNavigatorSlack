@@ -1,0 +1,1 @@
+# SFU Course Navigator Slack
