@@ -2,15 +2,18 @@
   "name": "coursenavigatorslack",
   "version": "1.0.0",
   "description": "Course Navigator can help you find information for every SFU course and present them to the user in an interactive way.",
-  "main": "bot.js",
+  "main": "src",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/bot.js"
   },
   "author": "Michael Chang",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.20.0",
     "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
     "slackbots": "^1.2.0"
   }
 }
