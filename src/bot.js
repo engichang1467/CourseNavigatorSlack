@@ -56,8 +56,3 @@ const handleMessage = (message) => {
     }
 
 }
-
-const hello = () => {
-    bot.postMessageToChannel('general', 'Hello there')
-}
-
